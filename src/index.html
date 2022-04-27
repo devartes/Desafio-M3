@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet">
+    <title>Desafio m3</title>
+    <link rel="stylesheet" href="./scss/main.css">
+    <link rel="shortcut icon" href="img/logo_agenciam3.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#"><img src="img/logo-m3.png" alt="logo m3"></a></li>
+          <li><a href="#"><img src="img/bag.svg" alt=""></a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="products__container">
+      <div class="products__container--block">
+        <h1>Blusas</h1>
+        <div class="dropdown__content">
+          <input id="toggle2" type="checkbox">
+          <label for="toggle2" class="animate">Ordenar por: <img
+              src="img/seta.svg" alt=""></label>
+          <ul class="animate">
+            <li class="animate">Mais recentes</li>
+            <li class="animate">Menor preço</li>
+            <li class="animate">Maior preço</li>
+          </ul>
+        </div>
+      </div>
+      <div class="products__options--block">
+        <aside class="products__options">
+          <div class="products__options--selection">
+            <ul class="products__options--colors">
+              <h2>Cores</h2>
+              <li><input class="styled-checkbox" type="checkbox" checked>
+                <label>Amarelo</label></li>
+              <li><input class="styled-checkbox" type="checkbox">
+                <label>Azul</label></li>
+              <li><input class="styled-checkbox" type="checkbox">
+                <label>Branco</label></li>
+              <li><input class="styled-checkbox" type="checkbox">
+                <label>Cinza</label></li>
+              <li><input class="styled-checkbox" type="checkbox">
+                <label>Laranja</label></li>
+              <li><button class="more__options">Ver todas as cores <img
+                    src="img/seta-checkbox.svg" alt=""></button></li>
+            </ul>
+            <ul class="products__options--sizes">
+              <h2>Tamanhos</h2>
+              <div class="selector__size">
+                <button>p</button>
+                <button>m</button>
+                <button>g</button>
+                <button>gg</button>
+                <button>u</button>
+                <button>36</button>
+                <button>38</button>
+                <button>40</button>
+                <button>36</button>
+                <button>38</button>
+                <button>40</button>
+              </div>
+
+            </ul>
+            <ul class="products__options--buy">
+              <h2>Faixa de preço</h2>
+              <li><input class="styled-checkbox" type="checkbox" checked>
+                <label>de R$0 até R$50</label></li>
+              <li><input class="styled-checkbox" type="checkbox">
+                <label>de R$51 até R$150</label></li>
+              <li><input class="styled-checkbox" type="checkbox">
+                <label>de R$151 até R$300</label></li>
+              <li><input class="styled-checkbox" type="checkbox">
+                <label>de R$301 até R$500</label></li>
+              <li><input class="styled-checkbox" type="checkbox">
+                <label>a partir de R$ 500</label></li>
+            </ul>
+          </div>
+
+        </aside>
+        <div class="products">
+          <ul class="categories__list">
+            
+          </ul>
+          <button>carregar mais</button>
+        </div>
+      </div>
+    </main>
+    <footer><span>M3: Implantação de E-commerce VTEX</span></footer>
+  </body>
+  <script src="./js/index.js"></script>
+</html>
