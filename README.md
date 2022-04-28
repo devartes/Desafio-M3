@@ -26,7 +26,7 @@ O dar start no server e nos processos para desenvolvimento é necessário rodar 
 
 Uma ver que o comando é dado ele irá levantar 2 servidores, sendo eles:
  - um para acessar o front-end que roda na porta 3000. No qual pode ser acessado pela url: http://localhost:3000
- - um para o json-server que irá export uma api com a lista de produtos que roda na porta 5000. Para acessar os produtos é na url:  http://localhost:3000/products
+ - um para o json-server que irá export uma api com a lista de produtos que roda na porta 3000. Para acessar os produtos é na url:  http://localhost:3000/products
 
 O desafio foi feito usando Html, Css, Javascript e Scss.
 
