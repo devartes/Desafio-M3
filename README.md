@@ -1,4 +1,4 @@
-Email: anacavalcante731@gmail.com<br>
+
 Para uma rápida visualização do projeto, [clique aqui:](https://desafio-m3.vercel.app/src/index.html)
 
 # Venha ser um desenvolvedor da Digital M3
